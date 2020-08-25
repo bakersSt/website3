@@ -1,0 +1,424 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+
+.container-fluid{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* New Nav-BAR */
+
+
+
+.inner-main-menu{
+    margin: 0 auto;
+    width: 1170px;
+}
+.inner-main-menu ul{
+    margin: 0;
+    padding: 25px 0 0 0;
+    list-style: none;
+    text-align: right;
+}
+.inner-main-menu ul li{
+    display: inline-block;
+}
+
+.inner-main-menu ul li:nth-child(1){
+    float: left;
+
+}
+
+.inner-main-menu ul li:nth-child(2){
+    float: left;
+}
+
+.inner-main-menu ul li a{
+    font-family: 'Righteous', cursive;
+    color: #252a34;
+    display: block;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.inner-main-menu ul li a:hover{}
+
+#main-menu{
+    width: 100%;
+    position: relative;
+    padding: 5px 0 30px 0 !important;
+}
+
+.logo-area{
+    width: 250px !important;
+    position: absolute;
+    left: 50%   ;
+    margin-left: -125px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar{
+    background-color:white !important;
+    border: solid 1px;
+    border-color:#eaeaea ;
+}
+.navbar-header{
+    float: left;
+    padding: 10px;
+    margin-left: 25%;
+    text-align: center;
+    width: 100%;
+}
+.logo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.nav{
+    padding: 0 10px 0 5px !important;
+}
+
+.img-carosel{
+    width: 100%;
+    height: 619px;
+    position: relative;
+}
+
+.nav-text-color{
+    color: #252a34 !important;
+    padding: 0 15px !important;
+    font-family: 'Righteous', cursive;
+    font-weight: bolder ;
+    font-size: 18px !important;
+}
+
+.title{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.brand{
+    height: 7%;
+    
+}
+
+/* .remove-space{
+    padding: 0 !important;
+    margin-bottom: -600px;
+} */
+/* .overlay{
+    background-color: black;
+    opacity: 0.6;
+    position: relative;
+    bottom: 619.51px;
+    z-index: 0;
+    width: 100%;
+    height: 619.51px;
+} */
+
+
+
+.contact-div{
+    background-color: #3d262a;
+    text-align: center;
+    padding: 3%;
+
+}
+
+.space-keeper{
+    width: 100%;
+    height: 40px;
+    color: white;
+}
+
+.tag-try{
+    font-family:'Lobster', cursive !important;
+    font-size: 55px;
+    color: #eaeaea !important;
+    margin-bottom: 2%;
+
+}
+.contact-btn{
+    margin: 10px 0 40px 0 !important;
+    text-align: center;
+    color: #eaeaea !important;
+    padding: 10px  !important;
+    width: 15% !important;
+    font-family: 'Roboto', sans-serif ;
+    font-weight: 900 !important ;
+    font-size: 20px !important;
+    border: solid 2px !important;
+    border-color: #eaeaea !important;
+}
+
+
+
+.list-container{
+    text-align: center;
+    margin-bottom: 4%;
+}
+.list-img{
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    margin: 15px 15px 5px 15px;
+}
+
+.list-img-text{
+    font-family:'Roboto', sans-serif;
+    color: #3d262a;
+    font-size: 22px;
+    display: block;
+    margin: 3px;
+}
+
+
+/* Carousel Of Index */
+.i-head{
+    color: #eaeaea;
+    position: relative;
+    bottom: 400px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    text-shadow: 2px 2px black;
+}
+
+.i-remove{
+    margin-bottom: -150px;
+}
+
+
+
+/* Footer */
+.footer{
+    background-color: black;
+}
+
+.link{
+    text-decoration: none !important;
+}
+.link:hover{
+    color: #eaeaea !important;
+}
+
+
+.b221{
+    color: #eaeaea !important;
+    font-family:'Scada', sans-serif;
+    font-size: 50px;
+}
+
+.e-v-f{
+    color: #eaeaea !important;
+    font-family:'Scada', sans-serif;
+}
+
+.evf-des{
+    color: gray;
+    font-family:'Scada', sans-serif;
+}
+
+
+
+/* CONTACT Page */
+.c-img{
+    width: 100% ;
+    height:350px;
+}
+.c-head{
+    position: relative;
+    bottom: 240px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px black;
+    font-size: 120px;
+    color: #eaeaea;
+}
+
+.c-title{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color:#eaeaea;
+}
+
+.c-add{
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    font-size: 22px;
+    color:rgb(173, 173, 173);
+}
+
+.c-remove{
+    margin-bottom: -170px;
+}
+
+.c-contactform{
+    text-align: center;
+}
+
+
+/* About Us */
+
+.a-title{
+    color: #eaeaea;
+    position: relative;
+    bottom: 350px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 120px;
+}
+
+.a-remove{
+    margin-bottom: -150px;
+}
+
+
+
+
+
+.navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 160px;
+    text-align: center;
+    background-color: transparent;
+}
+.navbar>.container .navbar-brand-centered, 
+.navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -80px;
+}
+
+
+
+
+
+/* Menu */
+
+.m-head{
+    color: #eaeaea;
+    position: relative;
+    bottom: 250px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 120px;
+    text-shadow: 2px 2px black;
+}
+
+.m-remove{
+    margin-bottom: -152px;
+}
+
+
+@media(max-width:784px)
+{
+    .i-remove{
+        margin-bottom: -450px;
+    }
+
+    .i-head{
+        font-size: 80px;
+    }
+}
+@media (max-width:1200px) {
+   .i-remove{
+       margin-bottom: -250px;
+   }
+}
+
+@media (max-width:451px){
+    .img-carosel{
+        height: 100%;
+    }
+    .i-head{
+        font-size: 35px;
+        bottom: 115px;
+    }
+
+    .i-remove{
+        margin-bottom: -100px;
+    }
+
+    .list-img{
+        width: 200px;
+        height: auto;
+    }
+
+    .tag-try{
+        font-size: 35px;
+    }
+
+    .c-img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .c-head{
+        font-size: 60px;
+        bottom: 100px;
+    }
+
+    .c-remove{
+        margin-bottom: -120px;
+    }
+
+    .c-title{
+        font-size: 35px;
+    }
+
+    .c-add{
+        font-size:18px ;
+    }
+
+    .m-head{
+        font-size: 60px;
+        bottom: 80px;
+    }
+
+    .m-remove{}
+
+    .a-title{
+        font-size: 60px;
+        bottom: 170px;
+    }
+    .a-remove{
+        margin-bottom: -120px;
+    }
+}
+
